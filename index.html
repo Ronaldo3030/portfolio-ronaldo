@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsivo.css">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/fav/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/fav/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/fav/favicon-16x16.png">
+    <link rel="manifest" href="assets/images/fav/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <meta name="description" content="Eu sou Ronaldo Maciel, e esse é meu portifolio para pessoas verem meus projetos e conhecerem um pouco sobre quem sou eu e o que faço!">
+
+    <title>Ronaldo Maciel | Web Developer</title>
+</head>
+
+<body>
+    <header>
+        <div id="home" class="first">
+            <div class="img-wrapper">
+                <img class="img" src="assets/images/developer.jpg"
+                    alt="Imagem de fundo que vai se colocando no lugar de acordo com o tempo. Um teclado em baixo e duas telas de computador, uma com um VScode (editor de texto) e uma com um site aberto.">
+            </div>
+            <div class="banner">
+                <h2>Web developer - Front End</h2>
+                <h1>Ronaldo Maciel</h1>
+            </div>
+        </div>
+        <div id="menu" class="container-header">
+            <h2 class="logo"><span class="effect">${</span>Ronaldo<span class="effect">}</span></h2>
+            <nav>
+                <ul class="menu">
+                    <a href="#home">
+                        <li class="">
+                            <i class="fas fa-home"></i>
+                            <p>Home</p>
+                        </li>
+                    </a>
+                    <a href="#sobre-mim">
+                        <li>
+                            <i class="fas fa-address-card"></i>
+                            <p>Sobre mim</p>
+                        </li>
+                    </a>
+                    <a href="#skills">
+                        <li>
+                            <i class="fas fa-pencil-ruler"></i>
+                            <p>Skills</p>
+                        </li>
+                    </a>
+                    <a href="#projetos">
+                        <li>
+                            <i class="fas fa-tasks"></i>
+                            <p>Projetos</p>
+                        </li>
+                    </a>
+                    <a href="#contato">
+                        <li>
+                            <i class="fas fa-comment-dots"></i>
+                            <p>Contato</p>
+                        </li>
+                    </a>
+                </ul>
+            </nav>
+            <div class="menu-responsivo">
+                <i id="btn-menu-hamburguer" class="fas fa-bars"></i>
+            </div>
+            <!-- MENU AO CLICAR NO HAMBURGUER -->
+            <div id="menu-hamburguer" class="menu-hamburguer esconde-menu">
+                <div class="close"><span>&#10005;</span></div>
+                <nav>
+                    <ul>
+                        <li class="select-menu"><i class="fas fa-home"></i>
+                            <p>Home</p>
+                        </li>
+                        <li><i class="fas fa-address-card"></i>
+                            <p>Sobre mim</p>
+                        </li>
+                        <li><i class="fas fa-pencil-ruler"></i>
+                            <p>Skills</p>
+                        </li>
+                        <li><i class="fas fa-tasks"></i>
+                            <p>Projetos</p>
+                        </li>
+                        <li><i class="fas fa-comment-dots"></i>
+                            <p>Contato</p>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <!-- menu fixo -->
+        <div id="menu-fixo" class="container-header menu-fixo d-none">
+            <h2 class="logo"><span class="effect">${</span>Ronaldo<span class="effect">}</span></h2>
+            <ul class="menu">
+                <a href="#home">
+                    <li id="menu-home">
+                        <i class="fas fa-home"></i>
+                        <p>Home</p>
+                    </li>
+                </a>
+                <a href="#sobre-mim">
+                    <li id="menu-sobre-mim" class="">
+                        <i class="fas fa-address-card"></i>
+                        <p>Sobre mim</p>
+                    </li>
+                </a>
+                <a href="#skills">
+                    <li id="menu-skills">
+                        <i class="fas fa-pencil-ruler"></i>
+                        <p>Skills</p>
+                    </li>
+                </a>
+                <a href="#projetos">
+                    <li id="menu-projetos">
+                        <i class="fas fa-tasks"></i>
+                        <p>Projetos</p>
+                    </li>
+                </a>
+                <a href="#contato">
+                    <li id="menu-contato">
+                        <i class="fas fa-comment-dots"></i>
+                        <p>Contato</p>
+                    </li>
+                </a>
+            </ul>
+            <div class="menu-responsivo">
+                <i id="btn-menu-hamburguer2" class="fas fa-bars"></i>
+            </div>
+            <!-- MENU AO CLICAR NO HAMBURGUER -->
+            <div id="menu-hamburguer" class="menu-hamburguer menu-hamburguer-fixo esconde-menu">
+                <div class="close close-fixo"><span>&#10005;</span></div>
+                <ul>
+                    <li class="select-menu"><i class="fas fa-home"></i>
+                        <p>Home</p>
+                    </li>
+                    <li><i class="fas fa-address-card"></i>
+                        <p>Sobre mim</p>
+                    </li>
+                    <li><i class="fas fa-pencil-ruler"></i>
+                        <p>Skills</p>
+                    </li>
+                    <li><i class="fas fa-tasks"></i>
+                        <p>Projetos</p>
+                    </li>
+                    <li><i class="fas fa-comment-dots"></i>
+                        <p>Contato</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </header>
+
+    <main>
+        <div id="sobre-mim" class="container">
+            <img class="bolinhas" src="assets/images/bolinhas.png">
+            <img class="bolinhas-2" src="assets/images/effect2.png" alt="">
+            <div data-aos="fade-right" class="img">
+                <img src="assets/images/eu.jpg" alt="Minha foto para me apresentar.">
+            </div>
+            <div data-aos="fade-right" class="sobre-mim">
+                <h2 class="title">Sobre mim<span class="effect-blue">.</span></h2>
+                <h4 class="sub-title">Um pequeno resumo</h4>
+                <div class="paragrafo">
+                    <p>Tenho 22 anos e sou apaixonado por programação desde meus 16 anos, escolhi trilhar esse caminho
+                        em 2019, quando iniciei a minha jornada acadêmica em Ciência da Computação na faculdade UNIPAC
+                        em Barbacena MG o qual concluo em Dezembro de 2022. Desde lá me dedico bastante aos estudos
+                        tanto da faculdade quanto por fora, em cursos etc.</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="skills" data-aos="fade-right" class="container">
+            <div class="skills">
+                <h2 class="title efeito-traco">Skills</h2>
+            </div>
+            <!-- COLOCAR NOME AO PASSAR MOUSE EM CIMA-->
+            <div class="container-skills">
+                <div class="card ">
+                    <i class="icon-card fab fa-html5"></i>
+                    <!-- <div class="btn-certificado">
+
+                    </div> -->
+                </div>
+                <div class="card"><i class="icon-card fab fa-css3-alt"></i></div>
+                <div class="card"><i class="icon-card fab fa-js-square"></i></div>
+                <div class="card"><i class="icon-card fab fa-bootstrap"></i></div>
+                <div class="card"><i class="icon-card fab fa-php"></i></div>
+                <div class="card"><img class="icon-card" src="assets/images/figma.svg" alt="figma"></div>
+                <div class="card"><i class="icon-card fab fa-github-square"></i></div>
+            </div>
+        </div>
+
+        <div id="projetos" class="container">
+            <div class="projetos">
+                <h2 data-aos="fade-right" class="title title-projetos">Pro<br>je<br>tos</h2>
+                <h2 class="title op-0">Pro<br>je<br>tos</h2>
+                <h2 class="title mobile"><span class="effect-blue">.</span>Projetos</h2>
+                <div class="container-projetos">
+
+                    <div data-aos="fade-right" class="projeto">
+                        <div class="content">
+                            <h3 class="title-projeto">Space Tourism<span class="effect-blue">.</span></h3>
+                            <img src="assets/images/space-tourism.png"
+                                alt="Imagem do projeto Space Tourism, tela inicial do site" class="img-projeto">
+                        </div>
+                        <div class="btn-projeto">
+                            <h3 class="title-projeto title-hover">Space Tourism<span class="effect-blue">.</span></h3>
+                            <div class="d-flex container-btn justify-center mb-5">
+                                <a href="https://ronaldo3030.github.io/code-challange-space-tourism/" target="_blank"
+                                    class="btn"><i class="fab fa-chrome"></i>Site</a>
+                                <a href="https://github.com/Ronaldo3030/code-challange-space-tourism" target="_blank"
+                                    class="btn"><i class="fab fa-github"></i>Github</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="projeto">
+                        <div class="content">
+                            <h3 class="title-projeto">Norse Mythology<span class="effect-blue">.</span></h3>
+                            <img src="assets/images/norse.png"
+                                alt="Imagem do projeto Space Tourism, tela inicial do site" class="img-projeto">
+                        </div>
+                        <div class="btn-projeto">
+                            <h3 class="title-projeto title-hover">Norse Mythology<span class="effect-blue">.</span></h3>
+                            <div class="d-flex container-btn justify-center mb-5">
+                                <a href="https://ronaldo3030.github.io/norse-mythology/" target="_blank" class="btn"><i
+                                        class="fab fa-chrome"></i>Site</a>
+                                <a href="https://github.com/Ronaldo3030/norse-mythology" target="_blank" class="btn"><i
+                                        class="fab fa-github"></i>Github</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="projeto">
+                        <div class="content">
+                            <h3 class="title-projeto">Jordan Shoes - Challenge Codelandia<span
+                                    class="effect-blue">.</span></h3>
+                            <img src="assets/images/joordan.png"
+                                alt="Imagem do projeto Space Tourism, tela inicial do site" class="img-projeto">
+                        </div>
+                        <div class="btn-projeto">
+                            <h3 class="title-projeto title-hover">Jordan Shoes<br>Challange Codelandia<span
+                                    class="effect-blue">.</span></h3>
+                            <div class="d-flex container-btn justify-center mb-5">
+                                <a href="https://ronaldo3030.github.io/second-challenge-codelandia/" target="_blank"
+                                    class="btn"><i class="fab fa-chrome"></i>Site</a>
+                                <a href="https://github.com/Ronaldo3030/second-challenge-codelandia" target="_blank"
+                                    class="btn"><i class="fab fa-github"></i>Github</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="contato" data-aos="fade-right" class="container">
+            <div class="contato">
+                <h2 class="title">Contato<span class="effect-blue">.</span></h2>
+                <h4 class="sub-title">Tem alguma dúvida ou quer mandar algum projeto?</h4>
+            </div>
+            <!-- COLOCAR NOME AO PASSAR MOUSE EM CIMA-->
+            <div class="container-contato d-flex">
+                <form class="form" method="post">
+                    <p id="msg-erro" class="error d-none">Algum dado está errado!</p>
+                    <input id="input-nome" type="text" class="input-contato" placeholder="Nome">
+                    <input id="input-email" type="text" class="input-contato" placeholder="Email">
+                    <textarea id="input-mensagem" cols="30" rows="4" class="input-contato"
+                        placeholder="Digite sua mensagem"></textarea>
+                    <div class="button">
+                        <a onclick="enviaEmail()" class="btn btn-submit">Enviar</a>
+                    </div>
+                </form>
+                <img class="img-email" src="assets/images/email.jpg" alt="Imagem da tela de um celular cortada, com duas notificações no app de Email.">
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="container container-footer">
+            <div class="copy">
+                <p><span>&copy;</span>2022, Ronaldo Maciel. Todos os direitos reservados.</p>
+            </div>
+            <div class="social-midia">
+                <a target="_blank" href="https://www.instagram.com/juninho_jucaa/"><i class="fab fa-instagram"></i></a>
+                <a target="_blank" href="https://br.linkedin.com/in/ronaldo-maciel-586619209"><i
+                        class="fab fa-linkedin"></i></a>
+                <a target="_blank" href="https://github.com/Ronaldo3030/"><i class="fab fa-github-square"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <div id="modal-envio" class="background-modal d-none">
+        <div class="container-modal">
+            <div id="close" class="close">
+                <span class="xizim">&#10005;</span>
+            </div>
+            <h4 class="sub-title success">
+                Mensagem enviada com sucesso!
+            </h4>
+            <p class="text-muted">Obrigado!</p>
+            <div class="gif">
+                <img class="gif-like" src="assets/images/like.gif" alt="Gif de garoto dando like várias vezes.">
+            </div>
+        </div>
+    </div>
+
+    <button id="btn-up" class="btn-up d-none" onclick="upPage()"><i class="fas fa-angle-up"></i></button>
+
+    <!-- SMTPJS -->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <!-- FONTAWESOME -->
+    <script src="https://kit.fontawesome.com/ac5f400d27.js" crossorigin="anonymous"></script>
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- MEU JS -->
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/menu.js"></script>
+    <!-- VLIBRAS -->
+    <div vw class="enabled vlibras">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,132 @@
+@media(max-width:1050px) {
+    .container{
+        padding: 1rem 10rem;
+    }
+    .container-header{
+        padding: 1.5rem 5.5rem;
+    }
+    .container-footer{
+        margin: 0;
+    }
+}
+@media(max-width:950px) {
+    .bolinhas{
+        display: none;
+    }
+    .bolinhas-2{
+        display: none;
+    }
+    .menu{
+        display: none;
+    }
+    .menu-responsivo{
+        display: block;
+    }
+    .container{
+        flex-direction: column;
+        padding: 1rem 1rem;
+        margin: 4rem auto;
+    }
+    .banner{
+        top: 37%;
+        left: 1rem;
+    }
+    .banner h2{
+        font-size: 2.9rem;
+        line-height: 2.5rem;
+    }
+    .banner h1{
+        font-size: 1.8rem;
+    }
+    .container-header{
+        padding: 0.5rem 1.5rem;
+    }
+    .img{
+        margin: 0 0 2rem 0;
+    }
+    .sobre-mim h4 .sobre-mim h2{
+        text-align: center;
+    }
+    .paragrafo{
+        margin-top: 1rem;
+    }
+    .mobile{
+        display: block;
+    }
+    .projetos{
+        display: block;
+    }
+    .title-projetos{
+        display: none;
+    }
+    .container-skills{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .card i{
+        font-size: 9rem;
+    }
+    #sobre-mim{
+        padding: 1rem;
+    }
+    .skills h2, .projetos .mobile {
+        margin-bottom: 3.5rem;
+    }
+    .img-projeto{
+        height: 15rem;
+    }
+    .title-hover{
+        font-size: 3rem;
+    }
+    .op-0{
+        display: none;
+    }
+    .container-btn{
+        display: grid !important;
+    }
+    .btn{
+        margin: 1rem 0;
+        width: 100%;
+    }
+    .btn-submit{
+        width: 100%;
+    }
+    .title-hover{
+        line-height: 3rem;
+        margin-top: 2rem;
+    }
+    .container-footer{
+        margin: 0;
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-items: center;
+    }
+    .copy{
+        text-align: center;
+        margin-bottom: 1.5rem;
+    }
+    .sub-title{
+        white-space: normal;
+    }
+    .img-email{
+        display: none;
+    }
+    .form{
+        width: 100%;
+    }
+    .input-contato{
+        width: 100%;
+    }
+    .button{
+        display: flex;
+    }
+    .btn-submit{
+        max-width: none;
+    }
+    .vlibras{
+        display: none;
+    }
+    .container-modal{
+        max-width: 75%;
+    }
+}
